@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="808c5fd3-e32c-405d-9b6c-e704cd7f4654" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/friska/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Feature/api.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/Endpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/JSONSchemaData/get_list_users_normal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/JSONSchemaData/post_create_user_normal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/Models.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Pages/ApiPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Runner/ApiRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/stepDef/ApiStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/Feature/web.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/Pages/WebPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/Runner/WebRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/StepDef/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/StepDef/WebStepdef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/helper/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testSelenium.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FinalProject" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2lXzPxC5HbwFn0xBnoIMhGWuWd0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: api (1).executor": "Run",
+    "Cucumber Java.Feature: api.executor": "Run",
+    "Cucumber Java.Feature: web (1).executor": "Run",
+    "Cucumber Java.Feature: web.executor": "Run",
+    "Cucumber Java.Scenario: Test Get List Data Normal.executor": "Run",
+    "Cucumber Java.Scenario: Test login and user click cancel.executor": "Run",
+    "Cucumber Java.Scenario: Test login with blank password.executor": "Run",
+    "Cucumber Java.Scenario: Test login with blank username and password.executor": "Run",
+    "Cucumber Java.Scenario: Test login with blank username.executor": "Run",
+    "Cucumber Java.Scenario: Test login without register.executor": "Run",
+    "Cucumber Java.Scenario: Test login.executor": "Run",
+    "Cucumber Java.Scenario: Test register web normal (1).executor": "Run",
+    "Cucumber Java.Scenario: Test register web normal.executor": "Run",
+    "Cucumber Java.Scenario: Test sign up and user click cancel.executor": "Run",
+    "Cucumber Java.Scenario: Test sign up with blank password.executor": "Run",
+    "Cucumber Java.Scenario: Test sign up with blank username and password.executor": "Run",
+    "Cucumber Java.Scenario: Test sign up with blank username.executor": "Run",
+    "Cucumber Java.Scenario: Test sign up.executor": "Run",
+    "Cucumber Java.Scenario: User add to cart and see cart page.executor": "Run",
+    "Cucumber Java.Scenario: User add to cart.executor": "Run",
+    "Cucumber Java.Scenario: User click categories.executor": "Run",
+    "Cucumber Java.Scenario: User delet cart.executor": "Run",
+    "Cucumber Java.Scenario: User field form cart.executor": "Run",
+    "Cucumber Java.Scenario: User not field form.executor": "Run",
+    "Cucumber Java.Scenario: User order item.executor": "Run",
+    "Cucumber Java.Scenario: User see cart.executor": "Run",
+    "Cucumber Java.Scenario: User see detail product.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.ApiRunner.executor": "Run",
+    "Gradle.Build FinalProject.executor": "Run",
+    "Gradle.FinalProject [:testSelenium.main()].executor": "Run",
+    "Gradle.WebRunner.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/HP/IdeaProjects/FinalProject/src/test/java/ApiTest/Feature/Helper",
+    "onboarding.tips.debug.path": "C:/Users/HP/IdeaProjects/FinalProject/src/main/java/org/friska/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\FinalProject\src\test\java\ApiTest\Feature\Helper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\FinalProject\src\test\java\ApiTest\Feature\Feature" />
+      <recent name="C:\Users\HP\IdeaProjects\FinalProject\src\test\java\ApiTest\Feature" />
+      <recent name="C:\Users\HP\IdeaProjects\FinalProject\src\test\java\StepDef" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: api (1)">
+    <configuration name="Feature: api (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/ApiTest/Feature/api.feature" />
+      <option name="GLUE" value="WebTest.StepDef ApiTest.stepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FinalProject.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: api" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: api" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/ApiTest/Feature/Feature/api.feature" />
+      <option name="GLUE" value="ApiTest.Feature.stepDef WebTest.StepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FinalProject.test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: api" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Test Get List Data Normal" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/ApiTest/Feature/Feature/api.feature" />
+      <option name="GLUE" value="ApiTest.Feature.stepDef WebTest.StepDef" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="FinalProject.test" />
+      <option name="NAME_FILTER" value="^Test Get List Data Normal$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Test Get List Data Normal$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Test Get List Data Normal" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ApiTest.Runner.ApiRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="WebRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;WebTest.Runner.WebRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: api (1)" />
+        <item itemvalue="Gradle.ApiRunner" />
+        <item itemvalue="Cucumber Java.Feature: api" />
+        <item itemvalue="Cucumber Java.Scenario: Test Get List Data Normal" />
+        <item itemvalue="Gradle.WebRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="808c5fd3-e32c-405d-9b6c-e704cd7f4654" name="Changes" comment="" />
+      <created>1725341190431</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725341190431</updated>
+    </task>
+    <servers />
+  </component>
+</project>
