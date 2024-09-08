@@ -5,35 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808c5fd3-e32c-405d-9b6c-e704cd7f4654" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/friska/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Feature/api.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/Endpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/JSONSchemaData/get_list_users_normal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/JSONSchemaData/post_create_user_normal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/Models.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Helper/utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Pages/ApiPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Runner/ApiRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ApiTest/stepDef/ApiStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/Feature/web.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/Pages/WebPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/Runner/WebRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/StepDef/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/StepDef/WebStepdef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebTest/helper/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testSelenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTest/Runner/ApiRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTest/Runner/ApiRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ApiTest/stepDef/ApiStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ApiTest/StepDef/ApiStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/StepDef/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/StepDef/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/helper/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/helper/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +68,7 @@
     "Cucumber Java.Feature: api.executor": "Run",
     "Cucumber Java.Feature: web (1).executor": "Run",
     "Cucumber Java.Feature: web.executor": "Run",
+    "Cucumber Java.Scenario: Test Get List Data Normal (1).executor": "Run",
     "Cucumber Java.Scenario: Test Get List Data Normal.executor": "Run",
     "Cucumber Java.Scenario: Test login and user click cancel.executor": "Run",
     "Cucumber Java.Scenario: Test login with blank password.executor": "Run",
@@ -114,6 +95,7 @@
     "Downloaded.Files.Path.Enabled": "false",
     "Gradle.ApiRunner.executor": "Run",
     "Gradle.Build FinalProject.executor": "Run",
+    "Gradle.Build jayjay8.executor": "Run",
     "Gradle.FinalProject [:testSelenium.main()].executor": "Run",
     "Gradle.WebRunner.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -123,7 +105,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/HP/IdeaProjects/FinalProject/src/test/java/ApiTest/Feature/Helper",
+    "last_opened_file_path": "/Users/pintu/IdeaProjects/jayjay8/src/test/resources",
     "onboarding.tips.debug.path": "C:/Users/HP/IdeaProjects/FinalProject/src/main/java/org/friska/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -133,6 +115,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="C:\Users\HP\IdeaProjects\FinalProject\src\test\java\ApiTest\Feature\Helper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -141,7 +124,7 @@
       <recent name="C:\Users\HP\IdeaProjects\FinalProject\src\test\java\StepDef" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: api (1)">
+  <component name="RunManager" selected="Gradle.ApiRunner">
     <configuration name="Feature: api (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/ApiTest/Feature/api.feature" />
@@ -180,10 +163,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Test Get List Data Normal" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Test Get List Data Normal (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/ApiTest/Feature/Feature/api.feature" />
-      <option name="GLUE" value="ApiTest.Feature.stepDef WebTest.StepDef" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/ApiTest/Feature/api.feature" />
+      <option name="GLUE" value="WebTest.StepDef ApiTest.stepDef" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="FinalProject.test" />
       <option name="NAME_FILTER" value="^Test Get List Data Normal$" />
@@ -250,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: api (1)" />
         <item itemvalue="Gradle.ApiRunner" />
-        <item itemvalue="Cucumber Java.Feature: api" />
-        <item itemvalue="Cucumber Java.Scenario: Test Get List Data Normal" />
         <item itemvalue="Gradle.WebRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Test Get List Data Normal (1)" />
+        <item itemvalue="Cucumber Java.Feature: api (1)" />
+        <item itemvalue="Cucumber Java.Feature: api" />
       </list>
     </recent_temporary>
   </component>

@@ -1,12 +1,12 @@
 package WebTest.StepDef;
 
 import WebTest.helper.Utility;
-import io.cucumber.java.After;
-import io.cucumber.java.AfterAll;
-import io.cucumber.java.Before;
-import io.cucumber.java.BeforeAll;
+import io.cucumber.java.*;
+
+import java.util.Objects;
 
 public class Hooks {
+    String tagsRunning = null;
     @BeforeAll
     public static void setUp(){
 
@@ -18,14 +18,20 @@ public class Hooks {
     }
 
     @Before
-    public void beforeTest(){
-        Utility.startDriver();
+    public void beforeTest(Scenario scenario){
+        String[] tags = scenario.getSourceTagNames().toArray(new String[0]);
+        tagsRunning = tags[0];
+        if (Objects.equals(tagsRunning, "@web")) {
+            Utility.startDriver();
+        }
     }
 
 
     @After
     public void afterTest() throws InterruptedException {
-        Thread.sleep(3000);
-        Utility.quitDriver();
+        if (Objects.equals(tagsRunning, "@web")) {
+            Thread.sleep(3000);
+            Utility.quitDriver();
+        }
     }
 }

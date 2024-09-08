@@ -1,4 +1,4 @@
-package ApiTest.stepDef;
+package ApiTest.StepDef;
 
 import ApiTest.Pages.ApiPage;
 import io.cucumber.java.en.And;

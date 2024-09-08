@@ -40,12 +40,6 @@ configurations {
     }
 }
 
-configurations {
-    cucumberRuntime {
-        extendsFrom testImplementation
-    }
-}
-
 tasks.register('apiTest') {
     dependsOn assemble, testClasses
     doLast {
@@ -55,7 +49,7 @@ tasks.register('apiTest') {
             args = [
                     '--plugin', 'pretty',
                     '--plugin', 'html:reports/cucumber-api-report.html',
-                    '--glue', 'stepDef',
+                    '--glue', 'ApiTest.StepDef',
                     '--tags', "@api",
                     'src/test/java/ApiTest/Feature']
         }
