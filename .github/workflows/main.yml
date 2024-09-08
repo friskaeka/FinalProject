@@ -47,16 +47,9 @@ jobs:
       run : ./gradlew webTest
       
     #archive test result
-    # - name : Archive test result 
-    #   uses: actions/upload-artifact@v3.2.0-node20
-    #   if: always()
-    #   with:
-    #     name: cucumber report 
-    #     path: reports
-
-    - name: Archive test result 
-      uses: actions/upload-artifact@v4
+    - name : Archive test result 
+      uses: actions/upload-artifact@v3.2.0-node20
       if: always()
       with:
-        name: cucumber-report
+        name: cucumber report 
         path: reports
