@@ -54,3 +54,8 @@ jobs:
       with:
         name: cucumber report 
         path: reports
+    
+    #Debugging 
+    - name: Execute Web Test
+      run: ./gradlew webTest --stacktrace --info
+
