@@ -30,14 +30,13 @@ public class Hooks {
         }
     }
 
-//    @BeforeEach
-//    public void beforeEach() throws InterruptedException {
-//        Thread.sleep(5000);
-//    }
-
+    @BeforeEach
+    public void beforeEach() throws InterruptedException {
+        Thread.sleep(5000);
+    }
 
     @After
-    public void afterTest(Scenario scenario) throws InterruptedException {
+    public void afterTest() throws InterruptedException {
         if (Objects.equals(tagsRunning, "@web")) {
 //            Thread.sleep(3000);
             quitDriver();
