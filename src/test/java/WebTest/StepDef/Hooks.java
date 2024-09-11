@@ -30,7 +30,7 @@ public class Hooks {
     @After
     public void afterTest() throws InterruptedException {
         if (Objects.equals(tagsRunning, "@web")) {
-            Thread.sleep(3000);
+//            Thread.sleep(3000);
             Utility.quitDriver();
         }
     }
