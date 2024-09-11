@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808c5fd3-e32c-405d-9b6c-e704cd7f4654" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/StepDef/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/StepDef/Hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +119,7 @@
       <recent name="C:\Users\HP\IdeaProjects\FinalProject\src\test\java\StepDef" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: User field form cart">
+  <component name="RunManager" selected="Cucumber Java.Feature: web">
     <configuration name="Feature: web" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/WebTest/Feature/web.feature" />
@@ -230,8 +229,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: User field form cart" />
         <item itemvalue="Cucumber Java.Feature: web" />
+        <item itemvalue="Cucumber Java.Scenario: User field form cart" />
         <item itemvalue="Gradle.ApiRunner" />
         <item itemvalue="Gradle.WebRunner" />
         <item itemvalue="Cucumber Java.Scenario: Test Get List Data Normal (1)" />

@@ -2,6 +2,7 @@ package WebTest.StepDef;
 
 import WebTest.helper.Utility;
 import io.cucumber.java.*;
+import org.junit.jupiter.api.BeforeEach;
 
 import java.util.Objects;
 
@@ -24,6 +25,11 @@ public class Hooks {
         if (Objects.equals(tagsRunning, "@web")) {
             Utility.startDriver();
         }
+    }
+
+    @BeforeEach
+    public void beforeEach() throws InterruptedException {
+        Thread.sleep(5000);
     }
 
 
