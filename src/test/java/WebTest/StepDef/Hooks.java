@@ -19,18 +19,21 @@ public class Hooks {
     }
 
     @Before
-    public void beforeTest(Scenario scenario){
-        String[] tags = scenario.getSourceTagNames().toArray(new String[0]);
-        tagsRunning = tags[0];
-        if (Objects.equals(tagsRunning, "@web")) {
-            Utility.startDriver();
-        }
-    }
-
-    @BeforeEach
-    public void beforeEach() throws InterruptedException {
+    public void beforeEach(Scenario scenario) throws InterruptedException {
         Thread.sleep(5000);
     }
+//    public void beforeTest(Scenario scenario){
+//        String[] tags = scenario.getSourceTagNames().toArray(new String[0]);
+//        tagsRunning = tags[0];
+//        if (Objects.equals(tagsRunning, "@web")) {
+//            Utility.startDriver();
+//        }
+//    }
+
+//    @BeforeEach
+//    public void beforeEach() throws InterruptedException {
+//        Thread.sleep(5000);
+//    }
 
 
     @After
