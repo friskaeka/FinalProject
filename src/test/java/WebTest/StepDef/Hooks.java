@@ -30,10 +30,10 @@ public class Hooks {
         }
     }
 
-//    @BeforeEach
-//    public void beforeEach() throws InterruptedException {
-//        Thread.sleep(5000);
-//    }
+    @BeforeEach
+    public void beforeEach() throws InterruptedException {
+        Thread.sleep(5000);
+    }
 
     @After
     public void afterTest() throws InterruptedException {
