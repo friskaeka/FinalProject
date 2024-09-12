@@ -161,8 +161,8 @@ public class WebStepdef {
 
     @And("user click chart")
     public void userClickChart() throws InterruptedException {
-        Thread.sleep(5000);
         webPage.userClickChart();
+        Thread.sleep(5000);
     }
 
     @And("user see cart page")
