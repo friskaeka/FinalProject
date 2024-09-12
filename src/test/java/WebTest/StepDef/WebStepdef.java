@@ -166,8 +166,9 @@ public class WebStepdef {
     }
 
     @And("user see cart page")
-    public void userSeeCartPage() {
+    public void userSeeCartPage() throws InterruptedException {
         webPage.userSeeCartPage();
+        Thread.sleep(5000);
     }
 
     @And("user delet item")
