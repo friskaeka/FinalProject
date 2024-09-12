@@ -129,7 +129,8 @@ public class WebStepdef {
     }
 
     @And("user see phone")
-    public void userSeePhone() {
+    public void userSeePhone() throws InterruptedException {
+        Thread.sleep(5000);
         webPage.userSeePhone();
     }
 
@@ -159,7 +160,8 @@ public class WebStepdef {
     }
 
     @And("user click chart")
-    public void userClickChart() {
+    public void userClickChart() throws InterruptedException {
+        Thread.sleep(5000);
         webPage.userClickChart();
     }
 
