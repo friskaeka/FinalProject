@@ -169,7 +169,8 @@ public class WebStepdef {
     }
 
     @And("user delet item")
-    public void userDeletItem() {
+    public void userDeletItem() throws InterruptedException {
+        Thread.sleep(5000);
         webPage.userDeletItem();
     }
 
